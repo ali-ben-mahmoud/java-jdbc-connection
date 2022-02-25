@@ -10,7 +10,7 @@ public class PostgreSqlExample {
     public static void main(String[] args) {
         try (Connection connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/example", "postgres", "postgres")) {
  
-            System.out.println("Java JDBC PostgreSQL Example");
+            System.out.println("Java JDBC PostgreSQL ExampleAA");
             // When this class first attempts to establish a connection, it automatically loads any JDBC 4.0 drivers found within 
             // the class path. Note that your application must manually load any JDBC drivers prior to version 4.0.
 //          Class.forName("org.postgresql.Driver"); 
